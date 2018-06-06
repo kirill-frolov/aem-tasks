@@ -7,6 +7,8 @@ AEM task 1.
 1. Build and deploy the project to Test environment (52.65.179.184:4502). Check hint below and see if you can do it from command line.
 2. Find in the code helloworld component.
 3. Fix the component so on the "/content/aem-tasks/en.html" page it displays the following:
+![alt text](https://raw.githubusercontent.com/kirill-frolov/aem-tasks/master/result.png)
+    
 
 
 ## Modules
