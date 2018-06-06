@@ -45,7 +45,7 @@ Or to deploy only the bundle to the author, run
    
 Based on main pom.xml, can you come up with command line that deploys package to test environment without changing the profiles?
 
-    mvn clean install -PautoInstallBundle mvn clean install -D -D -D
+    mvn clean install -PautoInstallBundle -D -D -D
 
 ## Testing
 
