@@ -43,13 +43,12 @@ public class HelloWorldModel {
      * resulting in "deleveled", which is a palindrome since it reads the same backward and forward.
      **/
     public static boolean isPalindrome(String word) {
-        return true;
-        /*throw new UnsupportedOperationException("Waiting to be implemented.");*/
+        throw new UnsupportedOperationException("Waiting to be implemented.");
     }
 
     @PostConstruct
     protected void init() {
-        if (isPalindrome("test")) {
+        if (isPalindrome("racecar")) {
             message = "Yes! Good Work!";
         } else {
           message = "Not yet. Try again";
