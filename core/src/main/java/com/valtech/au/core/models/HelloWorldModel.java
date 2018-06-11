@@ -36,19 +36,20 @@ public class HelloWorldModel {
     private String message;
 
 
-    /** A palindrome is a word that reads the same backward or forward.
+    /**
+     * Return true if the given string contains an appearance of "xyz" where the xyz is not directly preceeded by a period (.). So "xxyz" counts but "x.xyz" does not
      *
-     * Write a function that checks if a give word is a palindrome. Character case should be ignored.
-     * For example, isPalindrome("Deleveled") should return true as character case should be ignored,
-     * resulting in "deleveled", which is a palindrome since it reads the same backward and forward.
+     * xyzThere("abcxyz") → true
+     * xyzThere("abc.xyz") → false
+     * xyzThere("xyz.abc") → true
      **/
-    public static boolean isPalindrome(String word) {
+    public boolean xyzThere(String str) {
         throw new UnsupportedOperationException("Waiting to be implemented.");
     }
 
     @PostConstruct
     protected void init() {
-        if (isPalindrome("racecar")) {
+        if (xyzThere("abc.xyzxyz")) {
             message = "Yes! Good Work!";
         } else {
           message = "Not yet. Try again";
